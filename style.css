@@ -1,0 +1,53 @@
+
+.menu-container{
+    display: flex;
+}
+/*
+.menu_item{
+    background-color: deepskyblue;
+    flex-grow: 1;
+    height: 70px;
+    border: 1px solid;
+    box-shadow: 0 0 2px;
+    text-align: center;
+    text-shadow: crimson;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+*/
+
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+
+.dropbtn {
+    background-color: deepskyblue;
+    flex-grow: 1;
+    height: 70px;
+    border: 1px solid;
+    box-shadow: 0 0 2px;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: lightskyblue;
+    min-width: 160px;
+    z-index: 1;
+}
+
