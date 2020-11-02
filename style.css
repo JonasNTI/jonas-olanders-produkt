@@ -1,8 +1,10 @@
 
 .menu-container{
     display: flex;
+    position: relative;
+    display: inline-block;
 }
-/*
+
 .menu_item{
     background-color: deepskyblue;
     flex-grow: 1;
@@ -20,8 +22,8 @@ h1{
     justify-content: center;
     margin-top: 60px;
 }
-*/
 
+/*
 .dropdown-menu {
     position: relative;
     display: inline-block;
@@ -40,7 +42,6 @@ h1{
     text-align: center;
     font-size: 50px;
     cursor: pointer;
-
 }
 
 .dropdownContent {
@@ -50,4 +51,4 @@ h1{
     min-width: 160px;
     z-index: 1;
 }
-
+*/
