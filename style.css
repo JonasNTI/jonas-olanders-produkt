@@ -11,11 +11,13 @@ body{
     flex-grow: 1;
     justify-content: center;
     background-color: lightblue;
+    color: black;
     height: 70px;
     box-sizing: border-box;
     border: 1px solid;
     box-shadow: 3px 3px 3px;
     font-size: 50px;
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -38,34 +40,22 @@ h1{
     margin-right: 15%;
 }
 
-.product_pictures{
+.picture_container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 12.5%;
     margin-right: 12.5%;
     margin-top: 5%;
 }
 
-.picture1{
+.pictures{
     display: flex;
     box-sizing: border-box;
-    border: 1px solid;
-    box-shadow: 4px 4px 4px;
-}
-
-.picture2{
-    display: flex;
-    box-sizing: border-box;
-    border: 1px solid;
-    box-shadow: 2.5px 2.5px 2.5px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 4px black;
     background-color: black;
-}
-
-.picture3{
-    display: flex;
-    box-sizing: border-box;
-    border: 1px solid;
-    box-shadow: 2.5px 2.5px 2.5px;
+    margin-bottom: 2.5%;
 }
 
 footer{
